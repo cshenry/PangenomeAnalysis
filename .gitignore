@@ -1,0 +1,62 @@
+# Jupyter
+.ipynb_checkpoints/
+notebooks/datacache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Data (keep structure, ignore large files)
+notebooks/data/*.csv
+notebooks/data/*.tsv
+notebooks/data/*.xlsx
+notebooks/data/*.json
+notebooks/data/*.pkl
+notebooks/data/*.pickle
+notebooks/genomes/*.fasta
+notebooks/genomes/*.fa
+notebooks/genomes/*.fna
+notebooks/genomes/*.gbk
+notebooks/genomes/*.gff
+notebooks/models/*.xml
+notebooks/models/*.json
+notebooks/models/*.sbml
+notebooks/nboutput/*
+
+# Keep these data directory files
+!notebooks/data/.gitkeep
+!notebooks/genomes/.gitkeep
+!notebooks/models/.gitkeep
+!notebooks/nboutput/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude (commands are managed by claude-commands)
+.claude/commands/
+
+# Keep these
+!.claude/CLAUDE.md
+!.claude/settings.local.json

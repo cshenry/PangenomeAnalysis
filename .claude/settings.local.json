@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(venvman add:*)",
+      "Bash(claude-commands addproject:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial project setup: PangenomeAnalysis\n\nJupyter notebook project for pangenome analyses using BERDL, PLM, SKANI, and other tools.\n\nSetup includes:\n- Jupyter notebook structure (notebooks/, data/, genomes/, models/)\n- Cursor workspace configuration\n- Claude commands integration (10 commands)\n- Python requirements for scientific computing and bioinformatics\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
